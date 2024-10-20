@@ -1,5 +1,5 @@
 const clientAPI="pSo5mDpTZPDyPKgHHVp6uRrkw4lwOmaPh9qNFTCG5kA"
-const count="3"
+const count="20"
 const apiUrl=`https://api.unsplash.com/photos/random/?client_id=${clientAPI}&count=${count}`
 const image_container=document.getElementById('image_container');
 let photosArray=[]
